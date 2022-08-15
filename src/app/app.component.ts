@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'helloMundo';
+  title = 'HenriqueBrainerGustavoMelo';
+  logo = 'favicon.ico';
+  exibe = true;
+
+  exibirNome(){
+    return "giug9igh";
+  }
+  exibirAlerta(){
+    alert("You are?");
+  }
+
+
 }
